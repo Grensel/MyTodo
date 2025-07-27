@@ -1,5 +1,16 @@
+@font-face {
+  font-family: "Big Shoulders Display";
+  src: url("/src/common/assets/fonts/BigShouldersDisplay-Medium.eot");
+  src: url("/src/common/assets/fonts/BigShouldersDisplay-Medium.eot?#iefix") format("embedded-opentype"),
+    url("/src/common/assets/fonts/BigShouldersDisplay-Medium.woff2") format("woff2"),
+    url("/src/common/assets/fonts/BigShouldersDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, "Big Shoulders Display", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
